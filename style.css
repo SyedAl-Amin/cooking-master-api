@@ -1,0 +1,29 @@
+.full-wraper{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ingredient-image{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#food-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 16px;
+}
+#food-ingredient-container{
+    background-color:darkcyan;
+    width: 40%;
+}
+.food-name{
+    background-color: aliceblue;
+}
+.gredient-name{
+    font-size: 18px;
+    color: aliceblue;
+}
